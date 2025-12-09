@@ -14,7 +14,7 @@ partial class Program
     protected override void Render()
     {
 
-        ImGui.Begin("Шифр одноалфавитной замены"); 
+        ImGui.Begin("Шифр: Поточный шифр"); 
         
         if (ImGui.Button("Выход"))
             Close(); 
